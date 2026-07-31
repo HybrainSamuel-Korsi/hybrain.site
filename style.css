@@ -883,7 +883,7 @@ footer .copyright {
     /* overflow: hidden; */
     border-radius: 4rem;
     /* background: var(--color-gray-0); */
-    transform:rotate(0deg);
+    transform:rotate(2deg);
 }
 
 
