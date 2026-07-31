@@ -298,7 +298,7 @@ nav a.active {
     width: 300px;
     height: 200px;
     border-radius: .6rem;
-    background: var(--color-gray-200);
+    background: var(--color-gray-100);
     box-shadow: var(--shadow);
     position: fixed;
     transform: translatex(-50%);
