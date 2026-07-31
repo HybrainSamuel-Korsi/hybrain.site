@@ -434,9 +434,10 @@ span{
 }
 
 .process__right {
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 4rem;
-    background: var(--color-gray-0);
+    /* background: var(--color-gray-0); */
+    filter:drop-shadow(10px 10px 10px var(--color-gray-600));
 }
 
 .process ul li {
