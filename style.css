@@ -287,12 +287,72 @@ nav a.active {
         0 -1rem 1rem -1rem rgba(255, 255, 255, 0.15);
     border-radius: var(--radius-2);
    
+}
 
 
+
+/* Popup info */
+
+.popup_info {
+    z-index: 500000;
+    width: 300px;
+    height: 200px;
+    border-radius: .6rem;
+    background: var(--color-gray-200);
+    box-shadow: var(--shadow);
+    position: fixed;
+    transform: translate(50% -50%);
+    right: 40%;
+    top: 30%;
+    content: "";
+    border-right-color: 5px solid var(--nextlogic-bg);
+}
+
+.floating_btn_buy button{
+    position: absolute;
+    top: 10%;
+    border: none;
+    background: none;
+    color: var(--color-gray-900);
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    right: 5%;
+    transform: translate(-50% 50%);
+}
+
+.floating_btn_buy {
+    aspect-ratio: 2/1;
+    gap: 2rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 
 
 }
 
+.notice h3{
+    margin-top: .8rem;
+   text-align: center;
+}
+
+
+.floating_btn_buy ul li a {
+    font-weight: 700;
+    background: var(--nextlogic-color);
+    color: var(--color-gray-0);
+    padding: .6rem;
+    border-radius: 2rem;
+
+}
+
+.floating_btn_buy ul li a:hover{
+    background: var(--nextlogic-bg);
+    color: var(--nextlogic-color);
+}
+
+/*=======================================================  */
 
 .header__socials a {
     background: var(--color-gray-0);
