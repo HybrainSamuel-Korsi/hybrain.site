@@ -879,6 +879,14 @@ footer .copyright {
 
     }
 
+    .process__right {
+    /* overflow: hidden; */
+    border-radius: 4rem;
+    /* background: var(--color-gray-0); */
+    transform:rotate(0deg);
+}
+
+
     .process ul {
         gap: 1rem;
     }
