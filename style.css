@@ -298,14 +298,15 @@ nav a.active {
     width: 300px;
     height: 200px;
     border-radius: .6rem;
-    background: var(--color-gray-0);
+    background: var(--color-gray-100);
     box-shadow: var(--shadow);
     position: fixed;
     transform: translatex(-50%);
     left: 50%;
     top: 30%;
-    /* content: "";
-    border-right-color: 5px solid var(--nextlogic-bg); */
+    content: "";
+    border-top: 6px solid var(--nextlogic-color);
+    
 }
 
 .floating_btn_buy button{
