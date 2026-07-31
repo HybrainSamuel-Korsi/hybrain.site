@@ -301,8 +301,8 @@ nav a.active {
     background: var(--color-gray-200);
     box-shadow: var(--shadow);
     position: fixed;
-    transform: translate(50% -50%);
-    right: 40%;
+    transform: translatex(-50%);
+    left: 50%;
     top: 30%;
     content: "";
     border-right-color: 5px solid var(--nextlogic-bg);
