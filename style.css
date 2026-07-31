@@ -438,7 +438,7 @@ span{
     border-radius: 4rem;
     /* background: var(--color-gray-0); */
     filter:drop-shadow(10px 10px 10px var(--color-gray-600));
-    transform:rotateX(8deg);
+    transform:rotate(8deg);
 }
 
 .process ul li {
