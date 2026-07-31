@@ -43,6 +43,7 @@
   --nextlogic2-color: hsl(224, 92%, 54%);
   --nextlogic2-bg:rgb(235, 234, 246);
   --orange-glass:rgba(64, 35, 1, 0.15);
+     --shadow-3:0 10px 30px rgba(0,0,0,.3);
 }
 
 .dark {
@@ -298,14 +299,14 @@ nav a.active {
     width: 300px;
     height: 200px;
     border-radius: .6rem;
-    background: var(--color-gray-100);
-    box-shadow: var(--shadow);
+    background: var(--color-gray-0);
+    box-shadow: var(--shadow-3);
     position: fixed;
     transform: translatex(-50%);
     left: 50%;
     top: 30%;
     content: "";
-    border-top: 6px solid var(--nextlogic-color);
+    border-top: 5px solid var(--nextlogic-color);
     
 }
 
