@@ -1,5 +1,13 @@
 const menu__btn = document.querySelector('.menu__btn');
 const header__socials = document.querySelector('.header__socials');
+const info_pop = document.querySelector("#info-pop");
+
+
+document.querySelector("#info_close").addEventListener("click", function(){
+   info_pop.style.display = "none";
+
+
+})
 
 
 menu__btn.addEventListener('click', () => {
